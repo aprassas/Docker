@@ -5,4 +5,4 @@ print(loop)
 while(loop <= 8):
     print("hello")
     time.sleep(5.0) 
-    loop = loop +2
+    loop = loop +1
