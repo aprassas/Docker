@@ -2,7 +2,7 @@ import time
 
 loop = 1
 print(loop)
-while(loop <= 3):
+while(loop <= 8):
     print("hello")
     time.sleep(5.0) 
-    loop = loop +1
+    loop = loop +2
