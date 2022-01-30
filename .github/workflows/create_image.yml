@@ -20,5 +20,5 @@ jobs:
     - name: Build and Publish latest Docker image
       uses: VaultVulp/gp-docker-action@1.0.1
       with:
-        github-token: ${{ secrets.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 }} # Provide GITHUB_TOKEN to login into the GitHub Packages
+        github-token: ${{ secrets.5a7fd3d5-08ff-4d11-99f5-d1b80a8e50c9 }} # Provide GITHUB_TOKEN to login into the GitHub Packages
         image-name: my_docker_test # Provide only Docker image name, tag will be automatically set to latest
