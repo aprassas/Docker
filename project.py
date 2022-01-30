@@ -1,10 +1,8 @@
 import time
 
-loop="afk"
-while(loop):
+loop = 1
+print(loop)
+while(loop <= 3):
     print("hello")
-    time.sleep(10.0)
-loop="afk"
-while(loop):
-    print("hello")
-    time.sleep(10.0)
+    time.sleep(5.0) 
+    loop = loop +1
