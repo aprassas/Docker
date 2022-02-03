@@ -1,12 +1,12 @@
 import project
 
 
-print ("running test")
+def test_function():
 
-var = project.my_function2(True)
-assert(var == True)
+  var = project.my_function2(True)
+  assert(var == True)
 
-var = project.my_function2(False)
-assert(var == False)
-print('passed the test')
+  var = project.my_function2(False)
+  assert(var == False)
+
 
