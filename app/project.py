@@ -7,6 +7,5 @@ def my_function():
         print("hello")
         time.sleep(5.0) 
         loop = loop + 1       
-    return True
+    #return True
 
-my_function()
