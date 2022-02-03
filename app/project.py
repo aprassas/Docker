@@ -2,10 +2,13 @@
 import time
 
 def my_function():
-    loop=1
-    while(loop <= 2):
+    
+    while(true):
         print("hello")
         time.sleep(5.0) 
-        loop = loop + 1       
-    return True
+              
+    
 
+def my_function2(test):
+    return test
+    
