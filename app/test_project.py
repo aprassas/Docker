@@ -1,5 +1,5 @@
 import sys
-from ./ import project
+from .// import project
 
 print ("running test")
 
