@@ -1,4 +1,5 @@
-import root/project
+import sys
+from ./ import project
 
 print ("running test")
 
