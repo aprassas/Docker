@@ -1,4 +1,4 @@
-import ./project
+import "./project"
 
 print ("running test")
 
