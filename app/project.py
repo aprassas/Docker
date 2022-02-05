@@ -11,4 +11,6 @@ def my_function():
 
 def my_function2(test):
     return test
-    
+
+if __name__ == '__main__':
+    my_function()
