@@ -17,4 +17,4 @@ COPY . /app
 
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD ["python", "./app/project.py"]
+CMD ["python3", "./app/project.py"]
